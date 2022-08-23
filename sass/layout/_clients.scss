@@ -1,0 +1,32 @@
+.mid-banner-new {
+    display: flex;
+    align-items: center; 
+    }
+    
+    .mid-banner-new-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,  
+    &:focus {
+    border-color: var(--accent-color);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+    .mid-banner-list-icon {
+    color: #AFB1B8;
+    fill: currentColor; 
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);                     
+.mid-banner-new-li:hover &,  
+.mid-banner-new-li:focus & {
+fill: var(--accent-color); 
+}
+}
+    .mid-banner-new-up:not(:last-child) {
+    margin-right: 30px;
+    }

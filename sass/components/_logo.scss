@@ -1,0 +1,26 @@
+.logo-body {
+    margin-right: 93px;
+    }
+
+    .logo-body-left {
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+        }
+        
+.logo-body-right {
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #000000;
+        }
+
+        .page-nav {
+            display: flex;
+            align-items: center;
+            }
