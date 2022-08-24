@@ -3,7 +3,7 @@
     justify-content: center;  
 }
 
-.modal-btn {
+.modal__btn {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -38,11 +38,11 @@
     margin-top: 50px;
 }
 
-.section-li-text{
+.section-li__text{
     line-height: 0;
     }
     
-    .section-li-text:hover .overlay {
+    .section-li__text:hover .overlay {
     transform: translate(0, 0);
     }
         

@@ -28,12 +28,12 @@
     font-style: normal;
 }
 
-.footer-down:not(:last-child) {
+.footer__down:not(:last-child) {
     margin-bottom: 9px;
     margin-right: 70px;
 }
 
-.footer-maps{
+.footer__maps{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -42,7 +42,7 @@
     font-style: normal;
     }
     
-    .footer-tel-mail {
+    .footer-tel__mail {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
